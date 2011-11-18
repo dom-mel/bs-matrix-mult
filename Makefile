@@ -1,6 +1,6 @@
 
 all:
-	gcc -Wall -O2 -o matrix.out matrix.c
+	gcc -Wall -O2 -lpthread -o matrix.out matrix.c
 
 clean:
 	rm -f *.o
