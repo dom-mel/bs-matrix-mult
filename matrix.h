@@ -1,5 +1,5 @@
-#ifndef GENNUM_H
-#define GENNUM_H
+#ifndef MATRIX_H
+#define MATRIX_H
 
 #include <stdio.h>
 #include <time.h>
