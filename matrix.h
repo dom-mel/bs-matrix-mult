@@ -5,10 +5,11 @@
 #include <time.h>
 #include <stdlib.h>
 #include <pthread.h>
+#include <sys/time.h>
 
-#define MATRIX_SIZE 2
+#define MATRIX_SIZE 10
 #define THREADS 2
-#define DEBUG 1
+#define DEBUG
 
 int main(int argc, char **argv);
 void createMatrix(int **matrix);
