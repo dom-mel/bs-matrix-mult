@@ -10,6 +10,7 @@
 \setcounter{secnumdepth}{-1} 
 \usepackage{hyperref}
 \usepackage{listings}
+\usepackage{dsfont}
 \title{Betriebssysteme Vertiefung \\ Übungskomplex 2 (Prozesse/Threads)}
 
 \author{Dominik Eckelmann, Matr.-Nr.: 785856}
@@ -43,8 +44,8 @@ Zur Zeitmessung wird ein Intel Core2Duo L7500 mit 1,6GHZ verwendet. Er verfügt 
 adressierbaren Arbeitsspeicher. Als Betriebssystem wird Ubuntu 10.10 mit Kernel Version
 2.6.35 verwendet.
 
-Für die Tests werden zufällige Matritzen mit den größen 10, 100 und 1000 miteinander
-multipliziert. Die Zeitmessung geschieht mittels der gettimeofday-Funktion.
+Für die Tests werden je zwei Matritzen aus $\mathds{N}^{10\times10}$, $\mathds{N}^{100\times100}$ und
+$\mathds{N}^{1000\times1000}$ miteinander multipliziert. Die Zeitmessung geschieht mittels der gettimeofday-Funktion.
 
 \section{Matritzenmultiplikation}
 Die Multiplikation zweier Matritzen $A$ und $B$ erfolgt über die Summenformel:
